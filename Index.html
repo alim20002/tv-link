@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Internal Styles -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- HLS.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="/script.js"></script>
+</head>
+
+<body>
+
+    <div id="videoPlayerContainer">
+        <video id="videoPlayer" class="embed-responsive embed-responsive-16by9" controls autoplay playsinline></video>
+
+
+        <div id="channelListContainer">
+            <h3 class="text-center mb-4">Channels</h3>
+            <ul id="channelList" class="list-group">
+                <!-- Channels will be inserted here dynamically -->
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+
+
+</html>
